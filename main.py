@@ -1,24 +1,3 @@
-# print("hello world")
-# myName=input("enter your name ")
-# print("your name is",myName)4
-# firstNum = int(input("enter your first number "))
-# secondNum = int(input("enter your second number "))
-# print("the sum of these numbers is", firstNum+secondNum)
-# print("Lorem ipsum dolor sit amet consectetur adipisicing elit \t \n . Id temporibus repellat\n provident sint dolorem natus\n deleniti! Alias illum fugit magnam officiis deleni\nti porro nobis ab nulla. \n Iste nostrum quisquam excepturi officia cum quas, blanditiis corrupti necessitatibus voluptatum modi voluptatibus\n illum adipisci facere quod voluptatem laborum amet facilis dolorem nihil cumque.",end=" ")
-# # print("your what hffhf")
-# h = "\n\nsaraf gfhfhf"
-# f = open("herry.txt","r+")
-# # f.write("saeaesrretdfdtfytsyugfwygfaygfyguryrgfryygyguggfalhds\n")
-# # f.write("saeaesrretdfdtfytsyugfwygfaygfyguryrgfryygyguggfalhds\n")
-# # f.write("saeaesrretdfdtfytsyugfwygfaygfyguryrgfryygyguggfalhds\n")
-# # f.write("saeaesrretdfdtfytsyugfwygfaygfyguryrgfryygyguggfalhds\n")
-# # f.write("saeaesrretdfdtfytsyugfwygfaygfyguryrgfryygyguggfalhds\n")
-# print(f.read())
-# f.write(h)
-# print(f.read())
-# print(f.read())
-# print(f.read())
-# f.close()
 def gettime():
     import datetime
     return datetime.datetime.now()
@@ -151,7 +130,6 @@ def health_managment(m):
             print("   EXERSISE MANAGMENT  \n")
             f = open("rohanexer.txt", "r")
             print(f.read())
-
 health_managment(m)
 
 
